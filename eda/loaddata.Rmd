@@ -1,0 +1,142 @@
+---
+title: "Exploration Well Fluid Property - Data Analytic Perspective"
+author: "Tien Phan"
+date: "October 3, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r, echo=FALSE,warning=FALSE}
+# Call necessary packages:
+library(reshape2)
+library(ggplot2)
+
+```
+
+## 1. Data Loading, Descriptive Statistic
+
+
+```{r}
+fluiddata = read.csv('../data/FluidData.csv')
+labdata = read.csv('../data/LabData.csv')
+
+#str(fluiddata)
+
+```
+
+This page uses fluiddata frame which is resulted from lab, well-test and mudlog corrected (MLC) combination. Labdata only will be investigated separatedly at a later time.
+
+First, let's get the descriptive statistics for entire data set:
+
+```{r,echo = FALSE,warning=FALSE}
+summary(fluiddata)
+```
+
+## 2. Visualization, Outliers and Missing Values
+
+```{r, echo=FALSE,fig.height=6,warning=FALSE}
+m_fluiddata = melt(fluiddata,id="Id")
+cm_fluiddata = m_fluiddata[m_fluiddata$variable %in% c("Block","Area","Horizon","DataSource"),]
+nm_fluiddata = m_fluiddata[m_fluiddata$variable %in% c("TopSand","Netpay","Porosity","Sw","Egi","P","T","C1",
+                                                   "C2","C3","iC4","nC4","iC5","nC5","C6","C7","C8.",
+                                                   "CO2","N2","GHV"),]
+nm_fluiddata$value = as.numeric(as.character(nm_fluiddata$value))
+
+ggplot(data=cm_fluiddata,aes(x=value)) + geom_histogram(stat="count",aes(fill = variable)) +
+  facet_wrap(~variable,scales = "free")
+
+```
+```{r,echo=FALSE,fig.height=27,fig.width=12,warning=FALSE}
+
+ggplot(nm_fluiddata,aes(x=value)) + geom_histogram(aes(fill = variable))+
+facet_wrap(~variable,ncol=3,scales = "free")
+```
+
+Observation:
+
+* Out of 263 data points, block 52 accounts more than twice compares to block B. Accordingly, AQ, KL and CV areas are the top 3 area have the most data points collected.
+
+* A large majority of data points are collected at shallow depths (i.e. horizons F, H, I)
+
+* Data source from MLC occupies more than half of the entire data set which is less reliable to assess the fluid property analysis.
+
+* Netpay distribution is highly skewed to the left. There are outliers which will be analyzed in the next step.
+
+
+* Mole fraction of C5+ components are insignificant (i.e. less than 5%)
+
+* CO~2~ and N~2~ are also skewed to the left. Most of the CO~2~ data points lie between 0 - 20% while there are existing outliers above 40%. N~2~ are mostlikely between 0-5% while there are outliers above 10.
+
+* Descriptive statistics (i.e. mean, min, max, Q1 and Q3) are showed previously.
+
+### Outliers
+
+Now, look at the boxplot of the key features which seems to have outliers identified from previous histogram:
+
+```{r,echo=FALSE,warning=FALSE,fig.width=12,fig.height=10}
+#Boxplot
+m2_fluiddata = melt(fluiddata,id=c("Id","Block","Area","WellName","Horizon","DataSource"))
+nm2_fluiddata = m2_fluiddata[m2_fluiddata$variable %in% c("Netpay","Porosity","Sw","C1","iC5","CO2","GHV"),]
+nm2_fluiddata$value = as.numeric(as.character(nm2_fluiddata$value))
+
+ggplot(nm2_fluiddata,aes(y=value)) + geom_boxplot(col="deepskyblue")+facet_wrap(~variable,scale="free")
+```
+
+* Porosity, Sw and C1 seem to be normally distributed even though C1 has a some minor outliers at the low-end.
+
+* Netpay, CO~2~ and GHV have many outliers. In addition, iC5 has several outliers at the high-end. However, we ignore iC5 due to its narrow range and will focus on **Netpay** and **CO~2~** for further investigation. Most of the GHV data points in this study are formularized from C composition and CO~2~ (i.e. MLC data source), so it correlates very well with CO~2~ and compositions. Therefore, we ignore it in outlier analysis but it is considered as a dependent variable (response), so we will relate it in the model training and prediction at a later time.
+
+* Facet with different categories as the following plots:
+
+#### CO~2~:
+
++ Once facetting in different horizons, CO~2~ is more normally distributed. The high-end values (i.e. >30%) observed from the previous boxplot without facetting is now allocated to I and J horizons, mostly in AQ area.
+
++ It turns out that the numbers of outliers of CO~2~ are reduced to 5 (3 data points in AQ, 1 data point in each CV and KL: AQ-4X, AQ-7X, CV-3X and KL-3X).
+
++ J Sand only appears in KL, AQ and CV areas and CO~2~ in AQ is the highest. All CO~2~ in J sand are relatively normal distribution.
+
++ CO~2~ of I formation in AQ area is variated significantly (i.e. from very low value less than 5% to the highest value of more than 50%). This distribution is far different with the remaining and it is very interested to investigate further.
+
+```{r,echo=FALSE,warning=FALSE,fig.width=12,fig.height=10}
+CO2_nm2_fluiddata = nm2_fluiddata[nm2_fluiddata$variable %in% c("CO2"),]
+
+g=ggplot(CO2_nm2_fluiddata,aes(x=Horizon,y=value)) + geom_point(aes(shape=DataSource,col=Horizon),size=1.5)+
+geom_text(aes(label=ifelse(((value>25)&(Horizon %in% c("F","H"))|((value>20) & (Horizon=="I") & (Area=="KL"))),as.character(WellName),'')),family="Bookman",fontface="bold.italic",size=2.5,hjust=1.1,col='black')+
+  facet_wrap(~Area)
+g+geom_boxplot(aes(color=Horizon),outlier.color=NA)+ggtitle("CO2 Boxplot - Outlier Identification")+theme(plot.title=element_text(hjust=0.5))+ labs(y="Percentage Mole")
+```
+
+
+#### Netpay:
+
++ Netpay is the most left-skewed distributed among all features and seems to have log-normal distribution with mean values at lower-bound in the boxplot, especially in formation F. Therefore, the following normal boxplot cannot identify the outliers.
+
+
+```{r,echo=FALSE,warning=FALSE,fig.width=12,fig.height=10}
+Net_nm2_fluiddata = nm2_fluiddata[nm2_fluiddata$variable %in% c("Netpay"),]
+
+ggplot(Net_nm2_fluiddata,aes(x=Horizon,y=value)) + geom_boxplot(mapping=aes(col=Area))+facet_wrap(~Horizon,scales="free")+
+  ggtitle("Netpay Boxplot")+theme(plot.title=element_text(hjust=0.5))+ labs(y="Netpay (ft)")
+
+```
+
++ We transform Netpay to log-normal as the following plot. It turns out that AQ and CV areas exist several outliers in the formation F, H, J and M as indicated in the wellname AQ4X, AQ6X, CV-1X, CV-4X and CV-5X.
+
+```{r,echo=FALSE,warning=FALSE,fig.width=12,fig.height=10}
+Net_nm2_fluiddata$value = log(Net_nm2_fluiddata$value)
+
+g=ggplot(Net_nm2_fluiddata,aes(x=Horizon,y=value)) + geom_point(aes(shape=DataSource,col=Horizon),size=1.5)+
+geom_text(aes(label=ifelse(((value>3)&(Horizon %in% c("F") &(Area=="AQ"))|((value>3) & (Horizon %in% c("H","J","M")) & (Area=="CV"))),as.character(WellName),'')),family="Bookman",fontface="bold.italic",size=2.5,hjust=1.1,col='black')+
+  facet_wrap(~Area)
+g+geom_boxplot(aes(color=Horizon),outlier.color=NA)+ggtitle("Netpay Boxplot - Outlier Identification via LogNormal Transformation")+theme(plot.title=element_text(hjust=0.5)) + labs(y="Log(Netpay)")
+
+
+```
+
+
+### Coming next: 3. Feature engineering, PCA and linear regression
