@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:namespace="http://www.highcharts.com/svg/namespace"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   height="700pt"
+   width="700pt"
+   id="svg5223"
+   sodipodi:docname="vn-copy1.svg"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
+  <metadata
+     id="metadata5229">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5227" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1423"
+     inkscape:window-height="2371"
+     id="namedview5225"
+     showgrid="false"
+     inkscape:zoom="0.94285714"
+     inkscape:cx="466.66667"
+     inkscape:cy="466.66667"
+     inkscape:window-x="4791"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5223" />
+  <desc
+     id="desc5198">
+Map version: 1.1.3
+Copyright (c) 2020 Highsoft AS, Based on data from Natural Earth
+</desc>
+  <title
+     id="title5200">Vietnam</title>
+  <g
+     id="admin1"
+     transform="matrix(2.9353208,0,0,3.270632,82.851391,-1644.2487)">
+    <g
+       id="VN">
+      <namespace:desc>
+        <namespace:name>Vietnam</namespace:name>
+        <namespace:labelrank>2</namespace:labelrank>
+        <namespace:country-abbrev>Viet.</namespace:country-abbrev>
+        <namespace:subregion>South-Eastern Asia</namespace:subregion>
+        <namespace:region-wb>East Asia &amp; Pacific</namespace:region-wb>
+        <namespace:iso-a3>VNM</namespace:iso-a3>
+        <namespace:iso-a2>VN</namespace:iso-a2>
+        <namespace:woe-id>23424984</namespace:woe-id>
+        <namespace:continent>Asia</namespace:continent>
+        <namespace:hc-key>vn</namespace:hc-key>
+        <namespace:hc-a2>VI</namespace:hc-a2>
+      </namespace:desc>
+    </g>
+    <path
+       fill="#cee3f5"
+       stroke="#6e6e6e"
+       stroke-width="0.4"
+       id="VN.TG"
+       d="m 208.2,621.1 -2.2,-1 -6.1,-1.1 h 6.7 l 2,0.5 z m -41.6,-3.2 -0.5,-2 5.1,-6.5 0.7,-3.4 4.1,0.4 2.2,-0.2 1.4,-1.5 1.8,-0.6 4.9,0.3 2,0.9 2,2.8 4,1.6 0.5,2.7 h 6.2 l 1.4,-1 1.9,-1.8 0.7,1.9 2,-1.6 1.3,-0.1 2.2,3.6 0.4,4.1 -0.9,1.4 -3.4,-0.6 -4.9,0.1 -8.3,-1.3 -3.7,-1 -3,1 -3.5,0.1 -2.1,0.8 -2.4,0.1 -3.4,-1.1 -2.2,0.1 -1.6,1.4 -2.6,-0.1 z">
+      <namespace:desc>
+        <namespace:labelrank>7</namespace:labelrank>
+        <namespace:iso_3166_2>VN-46</namespace:iso_3166_2>
+        <namespace:hasc>VN.TG</namespace:hasc>
+        <namespace:alt-name>Tien Giang</namespace:alt-name>
+        <namespace:country>Vietnam</namespace:country>
+        <namespace:type-en>Province</namespace:type-en>
+        <namespace:region>??ng b?ng sông C?u Long</namespace:region>
+        <namespace:woe-id>2347717</namespace:woe-id>
+        <namespace:longitude>106.217</namespace:longitude>
+        <namespace:subregion>NULL</namespace:subregion>
+        <namespace:woe-name>Tien Giang</namespace:woe-name>
+        <namespace:fips>VM03</namespace:fips>
+        <namespace:latitude>10.4581</namespace:latitude>
+        <namespace:woe-label>Tien Giang, VN, Vietnam</namespace:woe-label>
+        <namespace:postal-code>TG</namespace:postal-code>
+        <namespace:type>T?nh</namespace:type>
+        <namespace:name>Ti?n Giang</namespace:name>
+        <namespace:hc-key>vn-tg</namespace:hc-key>
+        <namespace:hc-a2>TG</namespace:hc-a2>
+      </namespace:desc>
+    </path>
+    <path
+       fill="#cee3f5"
+       stroke="#6e6e6e"
+       stroke-width="0.4"
+       id="VN.BV"
+       d="m 229.9,611.1 -1.7,2.3 -1.4,0.6 -2.2,2.6 -0.4,-3.2 3.6,-1.5 0.7,-2 z m -8.5,-3.4 0.6,-1.1 -0.4,-4.7 4.2,-1.5 1.3,-1 0.3,-2 4.2,-2 1.9,0.1 0.5,2.8 1,1 2.1,-0.2 4.7,-5.3 1.1,0.2 1.6,2 3,6.6 0.4,2 -2.6,2.9 -3.9,1.9 -5.3,1 -2.9,3.5 -3.8,-1.2 1.2,-1.4 -1.9,-2 -1.6,0.5 -1.9,-1.1 -3.3,0.8 -0.3,-1.3 z m -0.9,-5.3 1.1,0.9 -0.7,2 -0.9,-0.4 0.3,-2.5 z">
+      <namespace:desc>
+        <namespace:labelrank>7</namespace:labelrank>
+        <namespace:iso_3166_2>VN-43</namespace:iso_3166_2>
+        <namespace:hasc>VN.BV</namespace:hasc>
+        <namespace:alt-name>Ba Ria - VTau|Ba Ria-Vung Tau</namespace:alt-name>
+        <namespace:country>Vietnam</namespace:country>
+        <namespace:type-en>Province</namespace:type-en>
+        <namespace:region>?ông Nam B?</namespace:region>
+        <namespace:woe-id>2347729</namespace:woe-id>
+        <namespace:longitude>107.143</namespace:longitude>
+        <namespace:subregion>NULL</namespace:subregion>
+        <namespace:woe-name>Bà R?a - V?ng Tàu</namespace:woe-name>
+        <namespace:fips>VM45</namespace:fips>
+        <namespace:latitude>10.3969</namespace:latitude>
+        <namespace:woe-label>Ba Ria-Vung Tau, VN, Vietnam</namespace:woe-label>
+        <namespace:postal-code>BV</namespace:postal-code>
+        <namespace:type>T?nh</namespace:type>
+        <namespace:name>Bà R?a - V?ng Tàu</namespace:name>
+        <namespace:hc-key>vn-bv</namespace:hc-key>
+        <namespace:hc-a2>BV</namespace:hc-a2>
+      </namespace:desc>
+    </path>
+    <path
+       fill="#cee3f5"
+       stroke="#6e6e6e"
+       stroke-width="0.4"
+       id="VN.HC"
+       d="m 218,607.9 -1.2,3.9 0.7,-0.6 1.9,1.6 -4.2,1.6 -0.6,-2.6 0.8,-1.9 -0.2,-1.8 1.8,-0.8 z m -1.2,-3.4 v 1.8 l -1.3,-1.6 0.4,2.6 -2.2,-1.9 1,-3.5 2.4,1.8 z m 4.8,3.7 -1.6,1 1.4,-1.5 z m -31.1,-22.6 2.6,-3.9 0.5,-2.8 3.9,-0.6 2.9,4.1 2.1,1.8 4.4,6.1 1,0.3 3,-0.9 1.7,0.3 2.2,3.5 v 2.4 l -2.5,-0.4 -1.8,0.8 -1.7,-0.9 0.2,3.2 3.7,2.1 2.6,-0.5 3.4,3.1 1,1.8 1.3,2.1 -1.9,2.3 -1.6,-3.5 0.2,-2.5 -2.9,-2.4 -2.4,1 -2.7,-2.6 -1.6,1.4 1.7,2.5 -1,1.8 1.6,-1.7 -1.6,-3 h 1 l 3.5,2.4 -0.4,2.6 1.3,1.4 -0.1,2 0.5,1.3 -2,-0.6 1.3,1.9 -0.9,1.3 -2.3,-1.5 -1.6,-2.4 -0.3,-3.7 -0.4,0.7 v -3.1 l -1.5,-1.6 -3.1,0.6 -1.6,-1.4 -4.1,-1.9 -1.4,-1.3 1.3,-3.1 0.1,-2.3 -2.2,-3.5 z">
+      <namespace:desc>
+        <namespace:labelrank>7</namespace:labelrank>
+        <namespace:iso_3166_2>VN-SG</namespace:iso_3166_2>
+        <namespace:hasc>VN.HC</namespace:hasc>
+        <namespace:alt-name>Ho Chi Minh City|Ho Chi Minh</namespace:alt-name>
+        <namespace:country>Vietnam</namespace:country>
+        <namespace:type-en>City|Municipality|Thanh Pho</namespace:type-en>
+        <namespace:region>?ông Nam B?</namespace:region>
+        <namespace:woe-id>2347728</namespace:woe-id>
+        <namespace:longitude>106.926</namespace:longitude>
+        <namespace:subregion>NULL</namespace:subregion>
+        <namespace:woe-name>H? Chí Minh city</namespace:woe-name>
+        <namespace:fips>VM20</namespace:fips>
+        <namespace:latitude>10.409</namespace:latitude>
+        <namespace:woe-label>Ho Chi Minh, VN, Vietnam</namespace:woe-label>
+        <namespace:postal-code>HC</namespace:postal-code>
+        <namespace:type>Thành ph? tr?c thu?c t?nh</namespace:type>
+        <namespace:name>H? Chí Minh city</namespace:name>
+        <namespace:hc-key>vn-hc</namespace:hc-key>
+        <namespace:hc-a2>HC</namespace:hc-a2>
+      </namespace:desc>
+    </path>
+    <path
+       fill="#cee3f5"
+       stroke="#6e6e6e"
+       stroke-width="0.4"
+       id="VN.BR"
+       d="m 199.2,639.7 h -1 l -1.2,-1.8 -3.5,-2.7 3,1.4 z m -20,-18.9 -2.1,-1 -5.6,-1.3 1.6,-1.4 2.2,-0.1 3.4,1.1 2.4,-0.1 2.1,-0.8 3.5,-0.1 3,-1 3.7,1 2.8,1.7 11.2,3.7 3.6,2 -0.2,2.3 -2.6,2.6 -1.5,0.3 V 628 l -1.7,2.5 -1.1,2.8 -2.5,-0.4 -2,-1.6 -2.4,-1 -2.5,-2.5 -4,-6.2 -1.3,-1.3 -1.9,-0.6 2.7,2.2 0.9,2.8 4.4,5.7 4.7,2.6 2.5,1.9 3.9,2 -0.7,1.9 -0.9,-1.3 -0.2,1.7 -2.2,1.5 -2.3,-1.2 -2.7,-3 -5.2,-3.2 -11.7,-12 z">
+      <namespace:desc>
+        <namespace:labelrank>7</namespace:labelrank>
+        <namespace:iso_3166_2>VN-50</namespace:iso_3166_2>
+        <namespace:hasc>VN.BR</namespace:hasc>
+        <namespace:alt-name>Ben Tre</namespace:alt-name>
+        <namespace:country>Vietnam</namespace:country>
+        <namespace:type-en>Province</namespace:type-en>
+        <namespace:region>??ng b?ng sông C?u Long</namespace:region>
+        <namespace:woe-id>2347703</namespace:woe-id>
+        <namespace:longitude>106.496</namespace:longitude>
+        <namespace:subregion>NULL</namespace:subregion>
+        <namespace:woe-name>B?n Tre</namespace:woe-name>
+        <namespace:fips>VM03</namespace:fips>
+        <namespace:latitude>10.171</namespace:latitude>
+        <namespace:woe-label>Ben Tre, VN, Vietnam</namespace:woe-label>
+        <namespace:postal-code>BR</namespace:postal-code>
+        <namespace:type>T?nh</namespace:type>
+        <namespace:name>B?n Tre</namespace:name>
+        <namespace:hc-key>vn-br</namespace:hc-key>
+        <namespace:hc-a2>BR</namespace:hc-a2>
+      </namespace:desc>
+    </path>
+    <path
+       fill="#cee3f5"
+       stroke="#6e6e6e"
+       stroke-width="0.4"
+       id="VN.ST"
+       d="m 205.3,690.9 -1.4,0.8 0.8,1.8 -2.5,0.2 -0.1,2 -1.9,-1.3 1.8,-2.4 2.8,-1.7 z m -26.5,-46.8 2.2,3.2 2.6,2.7 3.9,1.6 -0.4,2.1 -1.9,0.4 0.3,-1.2 -2.5,-2.4 1.4,2.1 -1.4,-0.3 -3.3,-4.7 z m -9.7,-8 8.1,7.9 0.9,2.6 4.9,7.2 0.4,4 -1.7,1.8 1.2,2.3 -8.2,2.6 -7.1,2.9 -1.6,-5.2 -1.5,-1.2 -5.2,0.3 -4.3,-1.6 -1.1,-2 -0.4,-7.1 5,-1.5 5.5,-3.3 1.3,-0.4 z">
+      <namespace:desc>
+        <namespace:labelrank>7</namespace:labelrank>
+        <namespace:iso_3166_2>VN-52</namespace:iso_3166_2>
+        <namespace:hasc>VN.ST</namespace:hasc>
+        <namespace:alt-name>Soc Trang</namespace:alt-name>
+        <namespace:country>Vietnam</namespace:country>
+        <namespace:type-en>Province</namespace:type-en>
+        <namespace:region>??ng b?ng sông C?u Long</namespace:region>
+        <namespace:woe-id>2347748</namespace:woe-id>
+        <namespace:longitude>105.9</namespace:longitude>
+        <namespace:subregion>NULL</namespace:subregion>
+        <namespace:woe-name>Sóc Tr?ng</namespace:woe-name>
+        <namespace:fips>VM65</namespace:fips>
+        <namespace:latitude>9.561400000000001</namespace:latitude>
+        <namespace:woe-label>Soc Trang, VN, Vietnam</namespace:woe-label>
+        <namespace:postal-code>ST</namespace:postal-code>
+        <namespace:type>T?nh</namespace:type>
+        <namespace:name>Sóc Tr?ng</namespace:name>
+        <namespace:hc-key>vn-st</namespace:hc-key>
+        <namespace:hc-a2>ST</namespace:hc-a2>
+      </namespace:desc>
+    </path>
+    <path
+       fill="#cee3f5"
+       stroke="#6e6e6e"
+       stroke-width="0.4"
+       id="VN.BP"
+       d="m 238.2,548.9 -2.9,1.6 -2,3 -0.1,1.3 1.3,2.9 -3.5,1.8 -4.3,1.4 -1.7,1.2 -0.9,3.1 -1.8,2.6 -3.8,3.4 -1.4,-0.1 -5.7,-2 -1.6,-0.3 -2.8,1.4 0.1,-1.9 -1.5,-0.5 -1.9,1.9 -1.6,-2.9 0.3,-2.5 -0.9,-0.8 -3.7,-1.7 -0.3,-1.1 -2.4,-2.1 1.2,-0.4 -0.9,-4.4 -1.7,-1.1 -1.7,-3.2 1,-4.3 0.8,-1.3 -2.1,-5 2.3,-0.2 1.5,1 1.4,-1 6.2,0.6 -0.3,-0.8 3.3,0.3 2.2,-3.9 2.4,-0.8 5.3,0.1 2.9,-1.5 8,-8.6 3.5,-1.6 1,11.6 1.3,3.3 2.6,1.8 1.4,1.8 0.7,3.2 1.3,3.1 z">
+      <namespace:desc>
+        <namespace:labelrank>7</namespace:labelrank>
+        <namespace:iso_3166_2>VN-58</namespace:iso_3166_2>
+        <namespace:hasc>VN.BP</namespace:hasc>
+        <namespace:alt-name>Binh Phuoc</namespace:alt-name>
+        <namespace:country>Vietnam</namespace:country>
+        <namespace:type-en>Province</namespace:type-en>
+        <namespace:region>?ông Nam B?</namespace:region>
+        <namespace:woe-id>20070086</namespace:woe-id>
+        <namespace:longitude>106.897</namespace:longitude>
+        <namespace:subregion>NULL</namespace:subregion>
+        <namespace:woe-name>Bình Ph??c</namespace:woe-name>
+        <namespace:fips>VM76</namespace:fips>
+        <namespace:latitude>11.6805</namespace:latitude>
+        <namespace:woe-label>Bin Phuoc, VN, Vietnam</namespace:woe-label>
+        <namespace:postal-code>BP</namespace:postal-code>
+        <namespace:type>T?nh</namespace:type>
+        <namespace:name>Bình Ph??c</namespace:name>
+        <namespace:hc-key>vn-bp</namespace:hc-key>
+        <namespace:hc-a2>BP</namespace:hc-a2>
+      </namespace:desc>
+    </path>
+    <path
+       fill="#cee3f5"
+       stroke="#6e6e6e"
+       stroke-width="0.4"
+       id="VN.331"
+       d="m 221.6,601.9 -0.6,-1.8 -0.5,2.3 h -0.2 -0.3 l -0.3,2.7 -1,-1.8 -3.4,-3.1 -2.6,0.5 -3.7,-2.1 -0.2,-3.2 1.7,0.9 1.8,-0.8 2.5,0.4 v -2.4 l -2.2,-3.5 -0.1,-1.4 -2.1,-3 -0.2,-2.1 2,-1.5 2.4,1.4 1.6,-0.2 1.9,-1.6 0.9,-2.8 -1.9,-4.3 1.4,-3.3 3.8,-3.4 1.8,-2.6 0.9,-3.1 1.7,-1.2 4.3,-1.4 3.5,-1.8 3.1,0.2 1.1,2.6 2.4,0.7 v 3.5 l 3.6,0.7 3.9,1.9 -1.8,1.6 -2.7,5.1 -3.7,8.7 2.2,1.7 h 2.5 l 1.2,1 1.5,3.2 0.1,2.9 -1.2,2.3 -2.2,2.2 -1.6,-2 -1.1,-0.2 -4.7,5.3 -2.1,0.2 -1,-1 -0.5,-2.8 -1.9,-0.1 -4.2,2 -0.3,2 -1.3,1 z">
+      <namespace:desc>
+        <namespace:labelrank>7</namespace:labelrank>
+        <namespace:iso_3166_2>VN-</namespace:iso_3166_2>
+        <namespace:hasc>VN.</namespace:hasc>
+        <namespace:alt-name>South East</namespace:alt-name>
+        <namespace:country>Vietnam</namespace:country>
+        <namespace:type-en>Region</namespace:type-en>
+        <namespace:region>NULL</namespace:region>
+        <namespace:woe-id>2347721</namespace:woe-id>
+        <namespace:longitude>107.178</namespace:longitude>
+        <namespace:subregion>NULL</namespace:subregion>
+        <namespace:woe-name>?ông Nam B?</namespace:woe-name>
+        <namespace:fips>VM43</namespace:fips>
+        <namespace:latitude>11.1258</namespace:latitude>
+        <namespace:woe-label>Dong Nai, VN, Vietnam</namespace:woe-label>
+        <namespace:postal-code>NULL</namespace:postal-code>
+        <namespace:type>Region</namespace:type>
+        <namespace:name>?ông Nam B?</namespace:name>
+        <namespace:hc-key>vn-331</namespace:hc-key>
+        <namespace:hc-a2>?N</namespace:hc-a2>
+      </namespace:desc>
+    </path>
+    <path
+       fill="#cee3f5"
+       stroke="#6e6e6e"
+       stroke-width="0.4"
+       id="VN.DT"
+       d="m 136.6,590 2.1,0.4 2.3,1.9 1.1,-0.2 1.4,-2.8 2.5,-2.6 3,1 2.3,-0.5 0.7,1.5 2.4,1.9 3,3.5 9.9,9.3 2.7,1.9 1.9,0.7 -0.7,3.4 -5.1,6.5 0.5,2 -2.3,-0.9 -4.7,-4.1 -3.2,-0.5 -2.3,-1.3 -1.5,-1.4 -2.2,-2.9 -4.7,-2.4 -1.2,-1.2 -0.4,-4.2 h -3 l -2.7,-3.7 -1.5,-3.1 z">
+      <namespace:desc>
+        <namespace:labelrank>7</namespace:labelrank>
+        <namespace:iso_3166_2>VN-45</namespace:iso_3166_2>
+        <namespace:hasc>VN.DT</namespace:hasc>
+        <namespace:alt-name>Dong Thap</namespace:alt-name>
+        <namespace:country>Vietnam</namespace:country>
+        <namespace:type-en>Province</namespace:type-en>
+        <namespace:region>??ng b?ng sông C?u Long</namespace:region>
+        <namespace:woe-id>2347722</namespace:woe-id>
+        <namespace:longitude>105.586</namespace:longitude>
+        <namespace:subregion>NULL</namespace:subregion>
+        <namespace:woe-name>Ð?ng Tháp</namespace:woe-name>
+        <namespace:fips>VM09</namespace:fips>
+        <namespace:latitude>10.6644</namespace:latitude>
+        <namespace:woe-label>Dong Thap, VN, Vietnam</namespace:woe-label>
+        <namespace:postal-code>DT</namespace:postal-code>
+        <namespace:type>T?nh</namespace:type>
+        <namespace:name>Ð?ng Tháp</namespace:name>
+        <namespace:hc-key>vn-dt</namespace:hc-key>
+        <namespace:hc-a2>DT</namespace:hc-a2>
+      </namespace:desc>
+    </path>
+    <path
+       fill="#cee3f5"
+       stroke="#6e6e6e"
+       stroke-width="0.4"
+       id="VN.LA"
+       d="m 208.4,605.9 -0.5,1.4 -4.4,2.1 -1.1,2 -1.4,1 h -6.2 l -0.5,-2.7 -4,-1.6 -2,-2.8 -2,-0.9 -4.9,-0.3 -1.8,0.6 -1.4,1.5 -2.2,0.2 -4.1,-0.4 -1.9,-0.7 -2.7,-1.9 -9.9,-9.3 -3,-3.5 -2.4,-1.9 -0.7,-1.5 5.1,-1.1 3,-1.7 2.6,-0.3 3.2,4.6 1.9,3.8 1.8,0.5 1.5,-3.2 4,3.6 2.6,1 3.8,0.6 1.1,0.8 -1.2,-4.5 -1.2,-2.2 0.2,-2.8 1.8,-0.1 1.5,0.5 3.9,-1.2 0.8,-1.9 2.8,2 5.4,2.7 2.2,3.5 -0.1,2.3 -1.3,3.1 1.4,1.3 4.1,1.9 1.6,1.4 3.1,-0.6 1.5,1.6 z">
+      <namespace:desc>
+        <namespace:labelrank>7</namespace:labelrank>
+        <namespace:iso_3166_2>VN-41</namespace:iso_3166_2>
+        <namespace:hasc>VN.LA</namespace:hasc>
+        <namespace:alt-name>Long An</namespace:alt-name>
+        <namespace:country>Vietnam</namespace:country>
+        <namespace:type-en>Province</namespace:type-en>
+        <namespace:region>??ng b?ng sông C?u Long</namespace:region>
+        <namespace:woe-id>2347710</namespace:woe-id>
+        <namespace:longitude>106.134</namespace:longitude>
+        <namespace:subregion>NULL</namespace:subregion>
+        <namespace:woe-name>Long An</namespace:woe-name>
+        <namespace:fips>VM24</namespace:fips>
+        <namespace:latitude>10.6869</namespace:latitude>
+        <namespace:woe-label>Long An, VN, Vietnam</namespace:woe-label>
+        <namespace:postal-code>LA</namespace:postal-code>
+        <namespace:type>T?nh</namespace:type>
+        <namespace:name>Long An</namespace:name>
+        <namespace:hc-key>vn-la</namespace:hc-key>
+        <namespace:hc-a2>LA</namespace:hc-a2>
+      </namespace:desc>
+    </path>
+    <path
+       fill="#cee3f5"
+       stroke="#6e6e6e"
+       stroke-width="0.4"
+       id="VN.337"
+       d="m 166.1,631.9 v 1.2 l 3,3 -3.8,9.3 -1.3,0.4 -5.5,3.3 -5,1.5 -5,1.1 h -3.3 l 0.1,-2.6 -1.5,-2 1.3,-2 5.4,-5.1 1.1,-3.5 -0.4,-2.1 -4.6,-4.3 4.8,-1.7 5,-1 2.9,-1.1 4.1,2.8 z">
+      <namespace:desc>
+        <namespace:labelrank>7</namespace:labelrank>
+        <namespace:iso_3166_2>VN-73</namespace:iso_3166_2>
+        <namespace:hasc>VN.</namespace:hasc>
+        <namespace:alt-name>NULL</namespace:alt-name>
+        <namespace:country>Vietnam</namespace:country>
+        <namespace:type-en>Region</namespace:type-en>
+        <namespace:region>NULL</namespace:region>
+        <namespace:woe-id>28301720</namespace:woe-id>
+        <namespace:longitude>105.663</namespace:longitude>
+        <namespace:subregion>NULL</namespace:subregion>
+        <namespace:woe-name>Hau Giang</namespace:woe-name>
+        <namespace:fips>NULL</namespace:fips>
+        <namespace:latitude>9.843529999999999</namespace:latitude>
+        <namespace:woe-label>Hau Giang, VN, Vietnam</namespace:woe-label>
+        <namespace:postal-code>NULL</namespace:postal-code>
+        <namespace:type>Region</namespace:type>
+        <namespace:name>Hau Giang</namespace:name>
+        <namespace:hc-key>vn-337</namespace:hc-key>
+        <namespace:hc-a2>HG</namespace:hc-a2>
+      </namespace:desc>
+    </path>
+    <path
+       fill="#cee3f5"
+       stroke="#6e6e6e"
+       stroke-width="0.4"
+       id="VN.BL"
+       d="m 167.6,667.4 -5.1,2.1 -10.3,3.8 -4.5,4.2 -0.9,1.6 -1.3,-2.4 -2.2,-0.7 -0.9,-1.4 -1,-4.4 -1.3,-0.4 -0.1,-1.5 1.7,-2.9 -1.4,-1.6 0.8,-1.9 -1.1,-1.6 0.9,-0.9 -0.8,-2.2 1.3,-2.1 -0.8,-3.4 0.6,-0.9 4,0.9 h 3.3 l 5,-1.1 0.4,7.1 1.1,2 4.3,1.6 5.2,-0.3 1.5,1.2 z">
+      <namespace:desc>
+        <namespace:labelrank>7</namespace:labelrank>
+        <namespace:iso_3166_2>VN-55</namespace:iso_3166_2>
+        <namespace:hasc>VN.BL</namespace:hasc>
+        <namespace:alt-name>Bac Lieu</namespace:alt-name>
+        <namespace:country>Vietnam</namespace:country>
+        <namespace:type-en>Province</namespace:type-en>
+        <namespace:region>??ng b?ng sông C?u Long</namespace:region>
+        <namespace:woe-id>20070081</namespace:woe-id>
+        <namespace:longitude>105.573</namespace:longitude>
+        <namespace:subregion>NULL</namespace:subregion>
+        <namespace:woe-name>B?c Liêu</namespace:woe-name>
+        <namespace:fips>VM73</namespace:fips>
+        <namespace:latitude>9.339410000000001</namespace:latitude>
+        <namespace:woe-label>Bac Lieu, VN, Vietnam</namespace:woe-label>
+        <namespace:postal-code>BL</namespace:postal-code>
+        <namespace:type>T?nh</namespace:type>
+        <namespace:name>B?c Liêu</namespace:name>
+        <namespace:hc-key>vn-bl</namespace:hc-key>
+        <namespace:hc-a2>BL</namespace:hc-a2>
+      </namespace:desc>
+    </path>
+    <path
+       fill="#cee3f5"
+       stroke="#6e6e6e"
+       stroke-width="0.4"
+       id="VN.VL"
+       d="m 179.2,620.8 2.3,2.7 1.2,2.9 2.5,2 -1.9,1.1 -0.8,1.6 -2.6,1.6 0.2,1.8 -3.5,1.1 -3,1.8 -4.4,-4.1 -3.1,-1.4 -2.7,-2.8 -4.1,-2.8 0.5,-2 1.6,-0.8 1.4,1 3.9,1.1 2.7,-1.6 0.1,-2.3 -1.4,-1 -1.5,-2.8 2.3,0.5 2.6,0.1 5.6,1.3 z">
+      <namespace:desc>
+        <namespace:labelrank>9</namespace:labelrank>
+        <namespace:iso_3166_2>VN-49</namespace:iso_3166_2>
+        <namespace:hasc>VN.VL</namespace:hasc>
+        <namespace:alt-name>Vinh Long</namespace:alt-name>
+        <namespace:country>Vietnam</namespace:country>
+        <namespace:type-en>Province</namespace:type-en>
+        <namespace:region>??ng b?ng sông C?u Long</namespace:region>
+        <namespace:woe-id>2347752</namespace:woe-id>
+        <namespace:longitude>105.969</namespace:longitude>
+        <namespace:subregion>NULL</namespace:subregion>
+        <namespace:woe-name>V?nh Long</namespace:woe-name>
+        <namespace:fips>VM50</namespace:fips>
+        <namespace:latitude>10.1042</namespace:latitude>
+        <namespace:woe-label>Vinh Long, VN, Vietnam</namespace:woe-label>
+        <namespace:postal-code>VL</namespace:postal-code>
+        <namespace:type>T?nh</namespace:type>
+        <namespace:name>V?nh Long</namespace:name>
+        <namespace:hc-key>vn-vl</namespace:hc-key>
+        <namespace:hc-a2>VL</namespace:hc-a2>
+      </namespace:desc>
+    </path>
+    <path
+       fill="#cee3f5"
+       stroke="#6e6e6e"
+       stroke-width="0.4"
+       id="VN.TN"
+       d="m 193.7,552.7 1.7,1.1 0.9,4.4 -1.2,0.4 -1.5,2.8 -2.4,2.7 -1.7,4.4 0.2,3.4 1.6,3.6 1.9,1.9 0.4,1.5 -0.5,2.8 -2.6,3.9 -2.8,-2 -0.8,1.9 -3.9,1.2 -1.5,-0.5 0.8,-0.3 -1.3,-3.6 -1.4,-1.5 -2,1.4 -1.1,-1.8 -4.2,-4.6 -3.5,-1.3 -0.6,-2.3 -2,-1 1.3,-5.9 -0.9,-6.3 -2.3,-0.9 -0.6,-1 0.7,-1.8 2.4,-1.7 3.6,0.9 2.2,-3.1 1.5,-3 4.6,1.1 h 1.9 l 4.2,1.5 2,1.9 3.2,-0.8 2.7,1.4 z">
+      <namespace:desc>
+        <namespace:labelrank>7</namespace:labelrank>
+        <namespace:iso_3166_2>VN-37</namespace:iso_3166_2>
+        <namespace:hasc>VN.TN</namespace:hasc>
+        <namespace:alt-name>Tay Ninh</namespace:alt-name>
+        <namespace:country>Vietnam</namespace:country>
+        <namespace:type-en>Province</namespace:type-en>
+        <namespace:region>?ông Nam B?</namespace:region>
+        <namespace:woe-id>2347714</namespace:woe-id>
+        <namespace:longitude>106.14</namespace:longitude>
+        <namespace:subregion>NULL</namespace:subregion>
+        <namespace:woe-name>Tây Ninh</namespace:woe-name>
+        <namespace:fips>VM33</namespace:fips>
+        <namespace:latitude>11.4121</namespace:latitude>
+        <namespace:woe-label>Tay Ninh, VN, Vietnam</namespace:woe-label>
+        <namespace:postal-code>TN</namespace:postal-code>
+        <namespace:type>T?nh</namespace:type>
+        <namespace:name>Tây Ninh</namespace:name>
+        <namespace:hc-key>vn-tn</namespace:hc-key>
+        <namespace:hc-a2>TN</namespace:hc-a2>
+      </namespace:desc>
+    </path>
+    <path
+       fill="#cee3f5"
+       stroke="#6e6e6e"
+       stroke-width="0.4"
+       id="VN.AG"
+       d="m 113.9,607.5 4.5,0.2 1.6,-0.6 4.2,-5.2 4.6,-2.4 1.2,-1.1 -0.1,-1.5 -2.4,-4.8 0.7,-3.1 2.3,-1.6 0.9,1.6 5.2,1 0.3,2.2 1.5,3.1 2.7,3.7 h 3 l 0.4,4.2 1.2,1.2 4.7,2.4 2.2,2.9 1.5,1.4 -2.3,2 -1.8,3.3 -1,2.8 -2,0.1 -2.9,1.8 -1.7,-1.8 -3.1,1.8 -1.2,1.7 -16.5,-8.7 z">
+      <namespace:desc>
+        <namespace:labelrank>7</namespace:labelrank>
+        <namespace:iso_3166_2>VN-44</namespace:iso_3166_2>
+        <namespace:hasc>VN.AG</namespace:hasc>
+        <namespace:alt-name>An Giang</namespace:alt-name>
+        <namespace:country>Vietnam</namespace:country>
+        <namespace:type-en>Province</namespace:type-en>
+        <namespace:region>??ng b?ng sông C?u Long</namespace:region>
+        <namespace:woe-id>2347719</namespace:woe-id>
+        <namespace:longitude>105.154</namespace:longitude>
+        <namespace:subregion>NULL</namespace:subregion>
+        <namespace:woe-name>An Giang</namespace:woe-name>
+        <namespace:fips>VM01</namespace:fips>
+        <namespace:latitude>10.5736</namespace:latitude>
+        <namespace:woe-label>An Giang, VN, Vietnam</namespace:woe-label>
+        <namespace:postal-code>AG</namespace:postal-code>
+        <namespace:type>T?nh</namespace:type>
+        <namespace:name>An Giang</namespace:name>
+        <namespace:hc-key>vn-ag</namespace:hc-key>
+        <namespace:hc-a2>AG</namespace:hc-a2>
+      </namespace:desc>
+    </path>
+    <path
+       fill="#cee3f5"
+       stroke="#6e6e6e"
+       stroke-width="0.4"
+       id="VN.CM"
+       d="m 146.8,679.1 -4.3,7.9 -3.5,3.8 -3.5,0.9 -3.9,5.1 -11.5,3.2 -4.9,-1.2 -1.5,-1.1 1.8,-0.1 3.6,-2.1 -0.7,-1.4 1.2,-0.4 3.1,0.6 2.4,-1.6 -4.1,1 -1.1,-1.4 3.6,-0.9 -0.3,-2.9 -5,1.8 -2,-2.2 1.8,-5.7 -0.2,-5.1 0.5,-7 0.8,-16.1 1.8,1.3 4.5,-1.1 2.6,0.1 10.1,5.3 1.9,0.5 1.1,1.6 -0.8,1.9 1.4,1.6 -1.7,2.9 0.1,1.5 1.3,0.4 1,4.4 0.9,1.4 2.2,0.7 z">
+      <namespace:desc>
+        <namespace:labelrank>7</namespace:labelrank>
+        <namespace:iso_3166_2>VN-59</namespace:iso_3166_2>
+        <namespace:hasc>VN.CM</namespace:hasc>
+        <namespace:alt-name>Ca Mau</namespace:alt-name>
+        <namespace:country>Vietnam</namespace:country>
+        <namespace:type-en>Province</namespace:type-en>
+        <namespace:region>??ng b?ng sông C?u Long</namespace:region>
+        <namespace:woe-id>20070082</namespace:woe-id>
+        <namespace:longitude>105.073</namespace:longitude>
+        <namespace:subregion>NULL</namespace:subregion>
+        <namespace:woe-name>Cà Mau</namespace:woe-name>
+        <namespace:fips>VM77</namespace:fips>
+        <namespace:latitude>9.05545</namespace:latitude>
+        <namespace:woe-label>Ca Mau, VN, Vietnam</namespace:woe-label>
+        <namespace:postal-code>CM</namespace:postal-code>
+        <namespace:type>T?nh</namespace:type>
+        <namespace:name>Cà Mau</namespace:name>
+        <namespace:hc-key>vn-cm</namespace:hc-key>
+        <namespace:hc-a2>CM</namespace:hc-a2>
+      </namespace:desc>
+    </path>
+    <path
+       fill="#cee3f5"
+       stroke="#6e6e6e"
+       stroke-width="0.4"
+       id="VN.TV"
+       d="m 185.2,628.4 1.8,1.3 1.3,2 3.6,3.5 4.1,3.4 2,2.8 0.5,1.9 2.2,1.1 0.1,4.2 -1.5,3.1 -2.8,1.8 -4,0.2 -2.9,-2 -4.1,-2.2 -8.7,-8.1 -3.2,-4 3,-1.8 3.5,-1.1 -0.2,-1.8 2.6,-1.6 0.8,-1.6 z">
+      <namespace:desc>
+        <namespace:labelrank>7</namespace:labelrank>
+        <namespace:iso_3166_2>VN-51</namespace:iso_3166_2>
+        <namespace:hasc>VN.TV</namespace:hasc>
+        <namespace:alt-name>Tra Vinh</namespace:alt-name>
+        <namespace:country>Vietnam</namespace:country>
+        <namespace:type-en>Province</namespace:type-en>
+        <namespace:region>??ng b?ng sông C?u Long</namespace:region>
+        <namespace:woe-id>2347750</namespace:woe-id>
+        <namespace:longitude>106.289</namespace:longitude>
+        <namespace:subregion>NULL</namespace:subregion>
+        <namespace:woe-name>Trà Vinh</namespace:woe-name>
+        <namespace:fips>VM51</namespace:fips>
+        <namespace:latitude>9.82817</namespace:latitude>
+        <namespace:woe-label>Tra Vinh, VN, Vietnam</namespace:woe-label>
+        <namespace:postal-code>TV</namespace:postal-code>
+        <namespace:type>T?nh</namespace:type>
+        <namespace:name>Trà Vinh</namespace:name>
+        <namespace:hc-key>vn-tv</namespace:hc-key>
+        <namespace:hc-a2>TV</namespace:hc-a2>
+      </namespace:desc>
+    </path>
+    <path
+       fill="#cee3f5"
+       stroke="#6e6e6e"
+       stroke-width="0.4"
+       id="VN.KG"
+       d="m 80.5,630.7 -1.3,-6.1 -2.1,-5.1 -3.7,-2.6 -0.6,-2.4 4.1,0.3 3.4,-4 3.6,3.8 0.1,5.8 -1.8,4.6 -0.6,2.6 0.8,1.3 v 2.9 z m 38.6,23.5 1,-9.6 1.7,-5.4 3.6,-0.1 1.1,-1.6 3.9,-2.6 1.8,4.1 -0.3,-4.6 -1,-2 -3.9,-4.6 -1.9,-0.6 -2.9,0.4 -1.5,-0.9 -3,-4.3 -1.5,-0.9 -3.1,0.2 -2.6,3.7 -2,-0.5 -0.9,-5 -2.5,-2.4 -1.7,-2.8 1.4,-1.4 -3.5,0.9 -0.1,-1.9 2,-0.3 2.8,-4.3 3.3,-0.7 4.6,0.5 7.7,6.6 16.5,8.7 3.9,2.7 4.6,4.6 4.6,4.3 0.4,2.1 -1.1,3.5 -5.4,5.1 -1.3,2 1.5,2 -0.1,2.6 -4,-0.9 -0.6,0.9 0.8,3.4 -1.3,2.1 0.8,2.2 -0.9,0.9 -1.9,-0.5 -10.1,-5.3 -2.6,-0.1 -4.5,1.1 z">
+      <namespace:desc>
+        <namespace:labelrank>7</namespace:labelrank>
+        <namespace:iso_3166_2>VN-47</namespace:iso_3166_2>
+        <namespace:hasc>VN.KG</namespace:hasc>
+        <namespace:alt-name>Kien Giang</namespace:alt-name>
+        <namespace:country>Vietnam</namespace:country>
+        <namespace:type-en>Province</namespace:type-en>
+        <namespace:region>??ng b?ng sông C?u Long</namespace:region>
+        <namespace:woe-id>2347723</namespace:woe-id>
+        <namespace:longitude>105.284</namespace:longitude>
+        <namespace:subregion>NULL</namespace:subregion>
+        <namespace:woe-name>Kiên Giang</namespace:woe-name>
+        <namespace:fips>VM21</namespace:fips>
+        <namespace:latitude>9.85962</namespace:latitude>
+        <namespace:woe-label>Kien Giang, VN, Vietnam</namespace:woe-label>
+        <namespace:postal-code>KG</namespace:postal-code>
+        <namespace:type>T?nh</namespace:type>
+        <namespace:name>Kiên Giang</namespace:name>
+        <namespace:hc-key>vn-kg</namespace:hc-key>
+        <namespace:hc-a2>KG</namespace:hc-a2>
+      </namespace:desc>
+    </path>
+    <path
+       fill="#cee3f5"
+       stroke="#6e6e6e"
+       stroke-width="0.4"
+       id="VN.BI"
+       d="m 195.1,558.6 2.4,2.1 0.3,1.1 3.7,1.7 0.9,0.8 -0.3,2.5 1.6,2.9 1.9,-1.9 1.5,0.5 -0.1,1.9 2.8,-1.4 1.6,0.3 5.7,2 1.4,0.1 -1.4,3.3 1.9,4.3 -0.9,2.8 -1.9,1.6 -1.6,0.2 -2.4,-1.4 -2,1.5 0.2,2.1 2.1,3 0.1,1.4 -1.7,-0.3 -3,0.9 -1,-0.3 -4.4,-6.1 -2.1,-1.8 -2.9,-4.1 -3.9,0.6 -0.4,-1.5 -1.9,-1.9 -1.6,-3.6 -0.2,-3.4 1.7,-4.4 2.4,-2.7 z">
+      <namespace:desc>
+        <namespace:labelrank>7</namespace:labelrank>
+        <namespace:iso_3166_2>VN-57</namespace:iso_3166_2>
+        <namespace:hasc>VN.BI</namespace:hasc>
+        <namespace:alt-name>Binh Duong</namespace:alt-name>
+        <namespace:country>Vietnam</namespace:country>
+        <namespace:type-en>Province</namespace:type-en>
+        <namespace:region>?ông Nam B?</namespace:region>
+        <namespace:woe-id>20070078</namespace:woe-id>
+        <namespace:longitude>106.659</namespace:longitude>
+        <namespace:subregion>NULL</namespace:subregion>
+        <namespace:woe-name>Bình D??ng</namespace:woe-name>
+        <namespace:fips>VM75</namespace:fips>
+        <namespace:latitude>11.1382</namespace:latitude>
+        <namespace:woe-label>Bin Duong, VN, Vietnam</namespace:woe-label>
+        <namespace:postal-code>BI</namespace:postal-code>
+        <namespace:type>T?nh</namespace:type>
+        <namespace:name>Bình D??ng</namespace:name>
+        <namespace:hc-key>vn-bi</namespace:hc-key>
+        <namespace:hc-a2>BI</namespace:hc-a2>
+      </namespace:desc>
+    </path>
+    <path
+       fill="#cee3f5"
+       stroke="#6e6e6e"
+       stroke-width="0.4"
+       id="VN.333"
+       d="m 138.1,622.8 1.2,-1.7 3.1,-1.8 1.7,1.8 2.9,-1.8 2,-0.1 1,-2.8 1.8,-3.3 2.3,-2 2.3,1.3 3.2,0.5 4.7,4.1 2.3,0.9 1.5,2.8 1.4,1 -0.1,2.3 -2.7,1.6 -3.9,-1.1 -1.4,-1 -1.6,0.8 -0.5,2 -2.9,1.1 -5,1 -4.8,1.7 -4.6,-4.6 z">
+      <namespace:desc>
+        <namespace:labelrank>7</namespace:labelrank>
+        <namespace:iso_3166_2>VN-CT</namespace:iso_3166_2>
+        <namespace:hasc>VN.</namespace:hasc>
+        <namespace:alt-name>NULL</namespace:alt-name>
+        <namespace:country>Vietnam</namespace:country>
+        <namespace:type-en>Province</namespace:type-en>
+        <namespace:region>NULL</namespace:region>
+        <namespace:woe-id>2347732</namespace:woe-id>
+        <namespace:longitude>105.685</namespace:longitude>
+        <namespace:subregion>NULL</namespace:subregion>
+        <namespace:woe-name>Can Tho</namespace:woe-name>
+        <namespace:fips>NULL</namespace:fips>
+        <namespace:latitude>10.2421</namespace:latitude>
+        <namespace:woe-label>Can Tho, VN, Vietnam</namespace:woe-label>
+        <namespace:postal-code>NULL</namespace:postal-code>
+        <namespace:type>T?nh</namespace:type>
+        <namespace:name>Can Tho</namespace:name>
+        <namespace:hc-key>vn-333</namespace:hc-key>
+        <namespace:hc-a2>CT</namespace:hc-a2>
+      </namespace:desc>
+    </path>
+  </g>
+</svg>
